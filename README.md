@@ -33,6 +33,11 @@
 | [#5](https://github.com/web-technics/infinnerty-electrical-website/issues/5) | Homepage Title and Meta Description Updated for SEO | 16 Mar 2026 |
 | [#6](https://github.com/web-technics/infinnerty-electrical-website/issues/6) | Set up nfinnertyelectrical.co.uk hosting | 15-17 Mar 2026 |
 | [#8](https://github.com/web-technics/infinnerty-electrical-website/issues/8) | Google Site Kit Analytics & Search Console connected | 16 Mar 2026 |
+| — | `/services` page: removed incorrect "in york" from service descriptions, updated SEO title + meta description | 3 Apr 2026 |
+| — | `/about` page: removed "in york" text, updated content to reflect full service area | 3 Apr 2026 |
+| — | All ~120 area pages: testimonials updated to recent 2026 reviews with verified source links (Google + Checkatrade) — shared via `content/areas/_shared/testimonials.html` | 3 Apr 2026 |
+| — | JotForm premium subscription form removed sitewide and replaced with alternative provider | 3-4 Apr 2026 |
+| — | DNS: `www.nfinnertyelectrical.com` → `nfinnertyelectrical.com` (apex canonical) redirect configured | 3-4 Apr 2026 |
 
 ---
 
@@ -50,6 +55,30 @@
 | [#17](https://github.com/web-technics/infinnerty-electrical-website/issues/17) | Review ROI on paid services (Google Ads, Checkatrade, JotForm) | 🟡 Ongoing |
 
 > 💡 **Next action:** Delete `hello.php` (zero-risk cleanup) — do manually via WP Admin > Plugins.
+
+---
+
+## 📁 Content Files
+
+Page content, SEO metadata and shared components are version-controlled here for reference and deployment:
+
+```
+content/
+  pages/
+    services.md          ← /services page — SEO title, meta description, body copy
+    about.md             ← /about page — body copy and SEO fields
+  areas/
+    _shared/
+      testimonials.html  ← SHARED testimonials partial (used on all ~120 area pages)
+    _template.md         ← Template for new area pages
+    york.md              ← York area page (+ 122 other areas)
+    ...
+data/
+  testimonials.json      ← Source-of-truth for all testimonials/reviews with links
+  areas.json             ← Master list of ~120 service-area slugs and display names
+```
+
+> **To update testimonials sitewide:** edit `data/testimonials.json` and `content/areas/_shared/testimonials.html`, then paste the updated HTML into the Divi Code module on each area page (or implement via WordPress shortcode).
 
 ---
 
