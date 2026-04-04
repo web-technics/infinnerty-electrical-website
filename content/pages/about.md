@@ -1,6 +1,6 @@
 ---
 # Nfinnerty Electrical — /about page content
-# Last updated: 2026-04-03
+# Last updated: 2026-04-04
 #
 # SEO (Yoast SEO fields):
 seo_title: "About Us | Nfinnerty Electrical — Trusted Local Electricians"
@@ -11,6 +11,10 @@ page_title: "About Nfinnerty Electrical"
 #
 # Canonical URL:
 canonical: "https://nfinnertyelectrical.com/about/"
+#
+# Featured image alt text (accessibility — required):
+# See data/images.json § pages.about for full image inventory.
+featured_image_alt: "Nfinnerty Electrical team member reviewing electrical plans on site"
 ---
 
 ## About Nfinnerty Electrical
