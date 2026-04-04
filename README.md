@@ -9,8 +9,22 @@
 
 | Domain | Status |
 |---|---|
-| [nfinnertyelectrical.com](https://nfinnertyelectrical.com) | ✅ Live (primary) |
+| [nfinnertyelectrical.com](https://nfinnertyelectrical.com) | ✅ Live (primary / canonical apex) |
+| [www.nfinnertyelectrical.com](https://www.nfinnertyelectrical.com) | ↩️ Redirects → apex (301) |
 | [nfinnertyelectrical.co.uk](https://nfinnertyelectrical.co.uk) | ✅ Live (VPS hosted) |
+
+### 🔁 Domain Setup
+
+- **Canonical domain:** `nfinnertyelectrical.com` (apex, no www)
+- `www.nfinnertyelectrical.com` performs a **301 permanent redirect** to `nfinnertyelectrical.com`
+- Redirect rule is defined in `.htaccess` (Apache / WordPress VPS)
+- `CNAME` file set to `nfinnertyelectrical.com` for GitHub Pages compatibility
+- **Required DNS records:**
+
+  | Type | Name | Value |
+  |------|------|-------|
+  | A | `@` | _(server IP — set in hosting control panel)_ |
+  | CNAME | `www` | `nfinnertyelectrical.com` |
 
 ---
 
@@ -33,11 +47,6 @@
 | [#5](https://github.com/web-technics/infinnerty-electrical-website/issues/5) | Homepage Title and Meta Description Updated for SEO | 16 Mar 2026 |
 | [#6](https://github.com/web-technics/infinnerty-electrical-website/issues/6) | Set up nfinnertyelectrical.co.uk hosting | 15-17 Mar 2026 |
 | [#8](https://github.com/web-technics/infinnerty-electrical-website/issues/8) | Google Site Kit Analytics & Search Console connected | 16 Mar 2026 |
-| — | `/services` page: removed incorrect "in york" from service descriptions, updated SEO title + meta description | 3 Apr 2026 |
-| — | `/about` page: removed "in york" text, updated content to reflect full service area | 3 Apr 2026 |
-| — | All ~120 area pages: testimonials updated to recent 2026 reviews with verified source links (Google + Checkatrade) — shared via `content/areas/_shared/testimonials.html` | 3 Apr 2026 |
-| — | JotForm premium subscription form removed sitewide and replaced with alternative provider | 3-4 Apr 2026 |
-| — | DNS: `www.nfinnertyelectrical.com` → `nfinnertyelectrical.com` (apex canonical) redirect configured | 3-4 Apr 2026 |
 
 ---
 
@@ -52,9 +61,45 @@
 | [#14](https://github.com/web-technics/infinnerty-electrical-website/issues/14) | Clean up image backup bloat (.bk.* files in uploads) | 🟠 Medium |
 | [#15](https://github.com/web-technics/infinnerty-electrical-website/issues/15) | Set up automated live review feed (Checkatrade / Google) | 🟠 Medium |
 | [#16](https://github.com/web-technics/infinnerty-electrical-website/issues/16) | SEO: Research and optimise area service landing pages | 🟡 Ongoing |
-| [#17](https://github.com/web-technics/infinnerty-electrical-website/issues/17) | Review ROI on paid services (Google Ads, Checkatrade, JotForm) | 🟡 Ongoing |
+| [#17](https://github.com/web-technics/infinnerty-electrical-website/issues/17) | Review ROI on paid services (Google Ads, Checkatrade) — JotForm removed | 🟡 Ongoing |
 
 > 💡 **Next action:** Delete `hello.php` (zero-risk cleanup) — do manually via WP Admin > Plugins.
+
+> 📋 **Subscription form:** Paste the new provider embed into `components/PremiumSubscriptionForm.html` (see TODO comment inside the file), then update the Divi Code Module / Custom HTML block on any page that previously showed the Jotform form.
+
+---
+
+## 📦 Key Files
+
+| File | Purpose |
+|---|---|
+| `components/PremiumSubscriptionForm.html` | Drop-in subscription form placeholder — replace TODO section with new provider embed |
+| `.htaccess` | Apache rewrite rules: www → apex redirect + HTTPS enforcement + WordPress permalinks |
+| `CNAME` | Custom domain for GitHub Pages (`nfinnertyelectrical.com`) |
+
+---
+
+## 📁 Content Files
+
+Page content, SEO metadata and shared components are version-controlled here for reference and deployment:
+
+```
+content/
+  pages/
+    services.md          ← /services page — SEO title, meta description, body copy
+    about.md             ← /about page — body copy and SEO fields
+  areas/
+    _shared/
+      testimonials.html  ← SHARED testimonials partial (used on all ~120 area pages)
+    _template.md         ← Template for new area pages
+    york.md              ← York area page (+ 122 other areas)
+    ...
+data/
+  testimonials.json      ← Source-of-truth for all testimonials/reviews with links
+  areas.json             ← Master list of ~120 service-area slugs and display names
+```
+
+> **To update testimonials sitewide:** edit `data/testimonials.json` and `content/areas/_shared/testimonials.html`, then paste the updated HTML into the Divi Code module on each area page (or implement via WordPress shortcode).
 
 ---
 
