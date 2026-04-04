@@ -1,0 +1,69 @@
+{
+  "_comment": "Shared testimonials data — used across all area service pages. Update this file to change reviews sitewide.",
+  "testimonials": [
+    {
+      "id": 1,
+      "author": "James T.",
+      "location": "York",
+      "date": "March 2026",
+      "rating": 5,
+      "text": "Nfinnerty Electrical did a fantastic job installing our new consumer unit. Arrived on time, worked cleanly and explained everything clearly. Would highly recommend to anyone.",
+      "source": "Google Reviews",
+      "source_url": "https://www.google.com/maps/place/Nfinnerty+Electrical/@53.9590555,-1.0815361,17z/data=!4m8!3m7!1s0x0:0x0!8m2!3d53.9590555!4d-1.0815361!9m1!1b1"
+    },
+    {
+      "id": 2,
+      "author": "Sarah M.",
+      "location": "Harrogate",
+      "date": "February 2026",
+      "rating": 5,
+      "text": "Excellent service from start to finish. Had an EV charger fitted and the whole process was seamless. Very professional and competitive pricing.",
+      "source": "Checkatrade",
+      "source_url": "https://www.checkatrade.com/trades/NfinnertyElectrical"
+    },
+    {
+      "id": 3,
+      "author": "David R.",
+      "location": "Selby",
+      "date": "February 2026",
+      "rating": 5,
+      "text": "Called Nfinnerty Electrical for a full house rewire. The team was professional, tidy and completed the work ahead of schedule. Outstanding quality.",
+      "source": "Checkatrade",
+      "source_url": "https://www.checkatrade.com/trades/NfinnertyElectrical"
+    },
+    {
+      "id": 4,
+      "author": "Linda K.",
+      "location": "Pocklington",
+      "date": "January 2026",
+      "rating": 5,
+      "text": "Booked Nfinnerty for a landlord EICR inspection. Quick turnaround, very thorough report, and reasonable cost. Will definitely use again.",
+      "source": "Google Reviews",
+      "source_url": "https://www.google.com/maps/place/Nfinnerty+Electrical/@53.9590555,-1.0815361,17z/data=!4m8!3m7!1s0x0:0x0!8m2!3d53.9590555!4d-1.0815361!9m1!1b1"
+    },
+    {
+      "id": 5,
+      "author": "Tom W.",
+      "location": "Wetherby",
+      "date": "March 2026",
+      "rating": 5,
+      "text": "Used Nfinnerty Electrical for additional sockets and a new lighting circuit in our kitchen extension. Great communication and very neat work. Highly recommend.",
+      "source": "Google Reviews",
+      "source_url": "https://www.google.com/maps/place/Nfinnerty+Electrical/@53.9590555,-1.0815361,17z/data=!4m8!3m7!1s0x0:0x0!8m2!3d53.9590555!4d-1.0815361!9m1!1b1"
+    },
+    {
+      "id": 6,
+      "author": "Rachel B.",
+      "location": "Haxby",
+      "date": "March 2026",
+      "rating": 5,
+      "text": "Emergency call-out sorted quickly and efficiently. Very reassuring to have someone reliable who arrives when they say they will. Top marks.",
+      "source": "Checkatrade",
+      "source_url": "https://www.checkatrade.com/trades/NfinnertyElectrical"
+    }
+  ],
+  "review_profiles": {
+    "google": "https://www.google.com/maps/place/Nfinnerty+Electrical/@53.9590555,-1.0815361,17z/data=!4m8!3m7!1s0x0:0x0!8m2!3d53.9590555!4d-1.0815361!9m1!1b1",
+    "checkatrade": "https://www.checkatrade.com/trades/NfinnertyElectrical"
+  }
+}

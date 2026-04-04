@@ -81,6 +81,54 @@
 
 ---
 
+## 📁 Content Files
+
+Page content, SEO metadata and shared components are version-controlled here for reference and deployment:
+
+```
+content/
+  pages/
+    services.md          ← /services page — SEO title, meta description, body copy
+    about.md             ← /about page — body copy and SEO fields
+  areas/
+    _shared/
+      testimonials.html  ← SHARED testimonials partial (used on all ~120 area pages)
+    _template.md         ← Template for new area pages
+    york.md              ← York area page (+ 122 other areas)
+    ...
+data/
+  testimonials.json      ← Source-of-truth for all testimonials/reviews with links
+  areas.json             ← Master list of ~120 service-area slugs and display names
+```
+
+> **To update testimonials sitewide:** edit `data/testimonials.json` and `content/areas/_shared/testimonials.html`, then paste the updated HTML into the Divi Code module on each area page (or implement via WordPress shortcode).
+
+---
+
+## 📁 Content Files
+
+Page content, SEO metadata and shared components are version-controlled here for reference and deployment:
+
+```
+content/
+  pages/
+    services.md          ← /services page — SEO title, meta description, body copy
+    about.md             ← /about page — body copy and SEO fields
+  areas/
+    _shared/
+      testimonials.html  ← SHARED testimonials partial (used on all ~120 area pages)
+    _template.md         ← Template for new area pages
+    york.md              ← York area page (+ 122 other areas)
+    ...
+data/
+  testimonials.json      ← Source-of-truth for all testimonials/reviews with links
+  areas.json             ← Master list of ~120 service-area slugs and display names
+```
+
+> **To update testimonials sitewide:** edit `data/testimonials.json` and `content/areas/_shared/testimonials.html`, then paste the updated HTML into the Divi Code module on each area page (or implement via WordPress shortcode).
+
+---
+
 ## 🛠️ Tech Stack
 
 | Tool | Purpose |
