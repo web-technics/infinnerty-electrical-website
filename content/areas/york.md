@@ -11,7 +11,7 @@ meta_description: "Looking for a reliable electrician in York? Nfinnerty Electri
 page_title: "Electrician in York"
 #
 # Canonical URL:
-canonical: "https://nfinnertyelectrical.com/areas/york/"
+canonical: "https://nfinnertyelectrical.com/electrician-in-york/"
 ---
 
 ## Electrician in York
