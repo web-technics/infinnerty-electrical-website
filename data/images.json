@@ -1,0 +1,144 @@
+{
+  "_comment": "Sitewide image inventory with descriptive alt text. Last updated: 2026-04-04. All images on the website must have a descriptive alt attribute matching the entry here. Content writers: see README.md § Image Alt Text Guidelines.",
+  "_note": "For purely decorative images use alt: '' (empty string). For all informational images use a concise, descriptive phrase that conveys the image content to someone who cannot see it.",
+
+  "global": [
+    {
+      "id": "logo",
+      "file": "nfinnerty-electrical-logo.png",
+      "location": "Header / footer sitewide",
+      "alt": "Nfinnerty Electrical logo"
+    },
+    {
+      "id": "niceic-badge",
+      "file": "niceic-approved-contractor.png",
+      "location": "Footer / About page / trust bar sitewide",
+      "alt": "NICEIC Approved Contractor badge"
+    },
+    {
+      "id": "checkatrade-badge",
+      "file": "checkatrade-verified.png",
+      "location": "Footer / About page / trust bar sitewide",
+      "alt": "Checkatrade verified trader badge"
+    }
+  ],
+
+  "pages": {
+    "home": [
+      {
+        "id": "home-hero",
+        "file": "homepage-hero.webp",
+        "location": "Homepage hero / banner section",
+        "alt": "Qualified electrician working on a consumer unit in a York home"
+      },
+      {
+        "id": "home-ev-charger",
+        "file": "ev-charger-installation.webp",
+        "location": "Homepage EV charger feature section",
+        "alt": "Home EV charge point installed on a garage wall by Nfinnerty Electrical"
+      }
+    ],
+
+    "services": [
+      {
+        "id": "services-hero",
+        "file": "services-banner.webp",
+        "location": "/services — hero/banner image",
+        "alt": "Electrician inspecting a consumer unit during an EICR inspection"
+      },
+      {
+        "id": "services-consumer-unit",
+        "file": "consumer-unit-upgrade.webp",
+        "location": "/services — Consumer Unit Upgrades section",
+        "alt": "Modern consumer unit (fuse board) installed in a domestic property"
+      },
+      {
+        "id": "services-rewire",
+        "file": "house-rewire.webp",
+        "location": "/services — Full House Rewires section",
+        "alt": "Electrician running new cables during a full house rewire"
+      },
+      {
+        "id": "services-ev-charger",
+        "file": "ev-charger-install.webp",
+        "location": "/services — EV Charger Installation section",
+        "alt": "7kW home EV charger mounted on an exterior wall"
+      },
+      {
+        "id": "services-eicr",
+        "file": "eicr-testing.webp",
+        "location": "/services — EICR Testing section",
+        "alt": "Electrician carrying out an Electrical Installation Condition Report test"
+      },
+      {
+        "id": "services-outdoor",
+        "file": "outdoor-garden-electrics.webp",
+        "location": "/services — Outdoor & Garden Electrics section",
+        "alt": "Outdoor electrical socket installed on a garden wall"
+      },
+      {
+        "id": "services-commercial",
+        "file": "commercial-electrical-work.webp",
+        "location": "/services — Commercial section",
+        "alt": "Electrician working on a commercial electrical installation in an office"
+      }
+    ],
+
+    "about": [
+      {
+        "id": "about-hero",
+        "file": "about-banner.webp",
+        "location": "/about — hero/banner image",
+        "alt": "Nfinnerty Electrical team member reviewing electrical plans on site"
+      },
+      {
+        "id": "about-electrician",
+        "file": "electrician-portrait.webp",
+        "location": "/about — main portrait / team photo",
+        "alt": "Nfinnerty Electrical qualified electrician in work attire"
+      }
+    ],
+
+    "commercial-electrician": [
+      {
+        "id": "commercial-hero",
+        "file": "commercial-electrician-banner.webp",
+        "location": "/commercial-electrician-in-york — hero/banner image",
+        "alt": "Commercial electrician installing three-phase supply in a business premises"
+      },
+      {
+        "id": "commercial-office-lighting",
+        "file": "commercial-office-lighting.webp",
+        "location": "/commercial-electrician-in-york — office lighting section",
+        "alt": "LED office lighting installation completed by Nfinnerty Electrical"
+      }
+    ],
+
+    "contact": [
+      {
+        "id": "contact-hero",
+        "file": "contact-banner.webp",
+        "location": "/contact — hero/banner image",
+        "alt": "Nfinnerty Electrical van parked outside a residential property in York"
+      }
+    ],
+
+    "areas-covered": [
+      {
+        "id": "areas-map",
+        "file": "north-yorkshire-service-map.webp",
+        "location": "/areas-covered — service area map image",
+        "alt": "Map showing Nfinnerty Electrical's service coverage across York and North Yorkshire"
+      }
+    ]
+  },
+
+  "area-pages": {
+    "_note": "All area landing pages use the same featured image (the electrician/van photo) with area-specific alt text following the pattern below.",
+    "featured_image_alt_pattern": "Nfinnerty Electrical electrician serving {Area Name} and the surrounding area",
+    "example": {
+      "area": "York",
+      "alt": "Nfinnerty Electrical electrician serving York and the surrounding area"
+    }
+  }
+}

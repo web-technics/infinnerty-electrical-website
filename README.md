@@ -49,6 +49,9 @@
 | [#8](https://github.com/web-technics/infinnerty-electrical-website/issues/8) | Google Site Kit Analytics & Search Console connected | 16 Mar 2026 |
 | — | **Jotform Premium subscription form removed** from all pages; replaced with provider-agnostic placeholder component (`components/PremiumSubscriptionForm.html`) | 3-4 Apr 2026 |
 | — | **www DNS added** — `www.nfinnertyelectrical.com` redirects → apex (`nfinnertyelectrical.com`) via `.htaccess` 301 | 3-4 Apr 2026 |
+| — | **Accessibility: descriptive alt text added** to all images sitewide — image inventory in `data/images.json`; `featured_image_alt` field added to all page/area content templates | 4 Apr 2026 |
+| — | **SEO: `/commercial-electrician-in-york`** — title updated to *Electrician Services \| Nfinnerty Electrical*, meta description updated; "in york" copy adjustments applied | 4 Apr 2026 |
+| — | **Content writers onboarded** (started 4 Apr 2026) — image alt text guidelines added to README and `data/images.json` | 4 Apr 2026 |
 
 ---
 
@@ -78,6 +81,7 @@
 | `components/PremiumSubscriptionForm.html` | Drop-in subscription form placeholder — replace TODO section with new provider embed |
 | `.htaccess` | Apache rewrite rules: www → apex redirect + HTTPS enforcement + WordPress permalinks |
 | `CNAME` | Custom domain for GitHub Pages (`nfinnertyelectrical.com`) |
+| `data/images.json` | Image inventory — all sitewide images with descriptive alt text (accessibility reference) |
 
 ---
 
@@ -88,44 +92,59 @@ Page content, SEO metadata and shared components are version-controlled here for
 ```
 content/
   pages/
-    services.md          ← /services page — SEO title, meta description, body copy
-    about.md             ← /about page — body copy and SEO fields
+    services.md                       ← /services page — SEO title, meta description, body copy
+    about.md                          ← /about page — body copy and SEO fields
+    commercial-electrician-in-york.md ← /commercial-electrician-in-york — SEO title, description, body copy
   areas/
     _shared/
       testimonials.html  ← SHARED testimonials partial (used on all ~120 area pages)
-    _template.md         ← Template for new area pages
+    _template.md         ← Template for new area pages (includes featured_image_alt field)
     york.md              ← York area page (+ 122 other areas)
     ...
 data/
   testimonials.json      ← Source-of-truth for all testimonials/reviews with links
   areas.json             ← Master list of ~120 service-area slugs and display names
+  images.json            ← Image inventory — all site images with descriptive alt text
 ```
 
 > **To update testimonials sitewide:** edit `data/testimonials.json` and `content/areas/_shared/testimonials.html`, then paste the updated HTML into the Divi Code module on each area page (or implement via WordPress shortcode).
+
+> **To update image alt text:** edit `data/images.json`, then apply the updated alt text in the WordPress Media Library or Divi module for the relevant image.
 
 ---
 
-## 📁 Content Files
+## 🖼️ Image Alt Text Guidelines
 
-Page content, SEO metadata and shared components are version-controlled here for reference and deployment:
+> **Applies from: 4 April 2026** — Content writers must follow these guidelines for all images added or edited on the website.
+
+All images on the website **must** have a descriptive `alt` attribute set. This is required for:
+- **Accessibility** — screen readers rely on alt text to describe images to visually impaired users
+- **SEO** — search engines use alt text to understand image content
+
+### Rules
+
+| Image type | Alt text rule |
+|---|---|
+| Informational / content images | Write a concise description of what is visible in the image (e.g. `"Electrician fitting a consumer unit in a kitchen"`) |
+| Logo | Use the business name + "logo" (e.g. `"Nfinnerty Electrical logo"`) |
+| Trust badges / accreditation | Name the badge (e.g. `"NICEIC Approved Contractor badge"`) |
+| Decorative images (purely visual, no meaning) | Use an empty alt attribute: `alt=""` |
+
+### Do not
+
+- Keyword-stuff alt text (e.g. `"electrician york rewire consumer unit york north yorkshire"` ❌)
+- Repeat the same alt text for different images unless they are truly identical
+- Leave alt text blank on informational images
+
+### Reference
+
+The full image inventory with approved alt text for all known site images is in **`data/images.json`**.
+
+For area pages, the `featured_image_alt` frontmatter field in each page's `.md` file (e.g. `content/areas/york.md`) defines the alt text for that page's featured image. The pattern is:
 
 ```
-content/
-  pages/
-    services.md          ← /services page — SEO title, meta description, body copy
-    about.md             ← /about page — body copy and SEO fields
-  areas/
-    _shared/
-      testimonials.html  ← SHARED testimonials partial (used on all ~120 area pages)
-    _template.md         ← Template for new area pages
-    york.md              ← York area page (+ 122 other areas)
-    ...
-data/
-  testimonials.json      ← Source-of-truth for all testimonials/reviews with links
-  areas.json             ← Master list of ~120 service-area slugs and display names
+Nfinnerty Electrical electrician serving {Area Name} and the surrounding area
 ```
-
-> **To update testimonials sitewide:** edit `data/testimonials.json` and `content/areas/_shared/testimonials.html`, then paste the updated HTML into the Divi Code module on each area page (or implement via WordPress shortcode).
 
 ---
 

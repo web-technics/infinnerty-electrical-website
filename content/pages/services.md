@@ -1,6 +1,6 @@
 ---
 # Nfinnerty Electrical — /services page content
-# Last updated: 2026-04-03
+# Last updated: 2026-04-04
 #
 # SEO (Yoast SEO fields):
 seo_title: "Electrical Services | Nfinnerty Electrical — York & North Yorkshire"
@@ -11,6 +11,10 @@ page_title: "Our Electrical Services"
 #
 # Canonical URL:
 canonical: "https://nfinnertyelectrical.com/services/"
+#
+# Featured image alt text (accessibility — required):
+# See data/images.json § pages.services for full image inventory.
+featured_image_alt: "Electrician inspecting a consumer unit during an EICR inspection"
 ---
 
 ## Our Electrical Services

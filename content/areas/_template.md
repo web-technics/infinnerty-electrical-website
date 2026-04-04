@@ -12,6 +12,10 @@ page_title: "Electrician in {{AREA_NAME}}"
 #
 # Canonical URL:
 canonical: "https://nfinnertyelectrical.com/areas/{{AREA_SLUG}}/"
+#
+# Featured image alt text (accessibility — required):
+# Use a descriptive phrase. See data/images.json § area-pages for pattern.
+featured_image_alt: "Nfinnerty Electrical electrician serving {{AREA_NAME}} and the surrounding area"
 ---
 
 ## Electrician in {{AREA_NAME}}
