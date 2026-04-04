@@ -47,6 +47,8 @@
 | [#5](https://github.com/web-technics/infinnerty-electrical-website/issues/5) | Homepage Title and Meta Description Updated for SEO | 16 Mar 2026 |
 | [#6](https://github.com/web-technics/infinnerty-electrical-website/issues/6) | Set up nfinnertyelectrical.co.uk hosting | 15-17 Mar 2026 |
 | [#8](https://github.com/web-technics/infinnerty-electrical-website/issues/8) | Google Site Kit Analytics & Search Console connected | 16 Mar 2026 |
+| — | **Jotform Premium subscription form removed** from all pages; replaced with provider-agnostic placeholder component (`components/PremiumSubscriptionForm.html`) | 3-4 Apr 2026 |
+| — | **www DNS added** — `www.nfinnertyelectrical.com` redirects → apex (`nfinnertyelectrical.com`) via `.htaccess` 301 | 3-4 Apr 2026 |
 
 ---
 
