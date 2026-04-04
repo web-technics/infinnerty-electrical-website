@@ -1,17 +1,15 @@
 ---
-layout: page
 title: York
-canonical: https://nfinnertyelectrical.com/electrician-in-york/
+canonical: "https://nfinnertyelectrical.com/electrician-in-york/"
+description: "Explore the electrical services offered in York."
 ---
 
-# York Electrical Services
+York is a city located in North Yorkshire, England, known for its rich history and strong economic activity. At Infinnerty Electrical, we offer a range of electrical services to both residential and commercial clients in York.
 
-We provide top-notch electrical services across York and surrounding areas. Our expert electricians are ready to assist you with your electrical needs.
+Our services include:
+- Electrical installations
+- Maintenance and repairs
+- Emergency electrical services
+- Energy efficiency consultations
 
-### Our Services
-- Residential Electrical Work
-- Commercial Electrical Solutions
-- Emergency Services
-- Energy Efficiency Assessments
-
-For more information or to book a service, contact us today!
+Contact us to learn more about how we can assist with your electrical needs in York!
