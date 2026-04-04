@@ -47,11 +47,6 @@
 | [#5](https://github.com/web-technics/infinnerty-electrical-website/issues/5) | Homepage Title and Meta Description Updated for SEO | 16 Mar 2026 |
 | [#6](https://github.com/web-technics/infinnerty-electrical-website/issues/6) | Set up nfinnertyelectrical.co.uk hosting | 15-17 Mar 2026 |
 | [#8](https://github.com/web-technics/infinnerty-electrical-website/issues/8) | Google Site Kit Analytics & Search Console connected | 16 Mar 2026 |
-| — | `/services` page: removed "in york" from service descriptions, updated SEO title + meta description | 3 Apr 2026 |
-| — | `/about` page: removed "in york" text, updated content to reflect full service area | 3 Apr 2026 |
-| — | All ~120 area pages: testimonials updated to recent 2026 reviews with verified source links (Google + Checkatrade) — shared via `content/areas/_shared/testimonials.html` | 3 Apr 2026 |
-| — | **Jotform Premium subscription form removed** from all pages; replaced with provider-agnostic placeholder component (`components/PremiumSubscriptionForm.html`) | 3-4 Apr 2026 |
-| — | **www DNS added** — `www.nfinnertyelectrical.com` redirects → apex (`nfinnertyelectrical.com`) via `.htaccess` 301 | 3-4 Apr 2026 |
 
 ---
 
@@ -81,6 +76,30 @@
 | `components/PremiumSubscriptionForm.html` | Drop-in subscription form placeholder — replace TODO section with new provider embed |
 | `.htaccess` | Apache rewrite rules: www → apex redirect + HTTPS enforcement + WordPress permalinks |
 | `CNAME` | Custom domain for GitHub Pages (`nfinnertyelectrical.com`) |
+
+---
+
+## 📁 Content Files
+
+Page content, SEO metadata and shared components are version-controlled here for reference and deployment:
+
+```
+content/
+  pages/
+    services.md          ← /services page — SEO title, meta description, body copy
+    about.md             ← /about page — body copy and SEO fields
+  areas/
+    _shared/
+      testimonials.html  ← SHARED testimonials partial (used on all ~120 area pages)
+    _template.md         ← Template for new area pages
+    york.md              ← York area page (+ 122 other areas)
+    ...
+data/
+  testimonials.json      ← Source-of-truth for all testimonials/reviews with links
+  areas.json             ← Master list of ~120 service-area slugs and display names
+```
+
+> **To update testimonials sitewide:** edit `data/testimonials.json` and `content/areas/_shared/testimonials.html`, then paste the updated HTML into the Divi Code module on each area page (or implement via WordPress shortcode).
 
 ---
 
