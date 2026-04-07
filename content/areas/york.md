@@ -1,6 +1,6 @@
 ---
 # Nfinnerty Electrical — York area page
-# Last updated: 2026-04-06
+# Last updated: 2026-04-07
 # Generated from: data/areas.json + content/areas/_shared/testimonials.html
 #
 # SEO (Yoast SEO fields):
