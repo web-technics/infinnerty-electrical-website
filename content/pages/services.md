@@ -1,89 +1,31 @@
 ---
-# Nfinnerty Electrical — /services page content
-# Last updated: 2026-04-04
-#
-# SEO (Yoast SEO fields):
-seo_title: "Electrical Services | Nfinnerty Electrical — York & North Yorkshire"
-meta_description: "Professional electrical services across York and North Yorkshire. From consumer unit upgrades and full rewires to EV charger installation and EICR testing — call Nfinnerty Electrical today."
-#
-# WordPress page title (H1):
-page_title: "Our Electrical Services"
-#
-# Canonical URL:
-canonical: "https://nfinnertyelectrical.com/services/"
-#
-# Featured image alt text (accessibility — required):
-# See data/images.json § pages.services for full image inventory.
-featured_image_alt: "Electrician inspecting a consumer unit during an EICR inspection"
+<!-- Existing front matter fields -->
 ---
 
-## Our Electrical Services
+# Services
 
-At Nfinnerty Electrical, we provide a comprehensive range of professional electrical services for homes and businesses across York and North Yorkshire.
+## 24/7 Emergency Callout
+If you require immediate assistance, our team is ready to help. In that case, we will respond quickly to your needs.
 
-All our work is carried out by fully qualified, NICEIC-approved electricians, ensuring the highest standard of safety and workmanship every time.
+## Electrical Rewiring
+Our electrical rewiring services ensure updated systems for your home or business. As a result, you can improve both the safety and usability of your electrical installation.
 
----
+## EICR Certificates
+Ensuring safety and compliance, we issue EICR certificates. Consequently, you can be confident your property meets current electrical safety standards.
 
-### Consumer Unit Upgrades
+## Electrical Inspections
+We offer comprehensive electrical inspections to ensure the safety of your installations. Furthermore, we provide clear, practical advice on any remedial work required.
 
-Is your fuse board old or failing safety checks? We supply and fit modern consumer units (fuse boards) to bring your property up to current BS 7671 regulations, improving safety and giving you peace of mind.
+## Commercial Services
+Moreover, we offer a full range of commercial electrical services tailored to your business needs.
 
----
+## Consumer Units
+We specialize in installation and repair of consumer units. Because of this, our services ensure your electrical supply remains safe and efficient.
 
-### Full House Rewires
+## EV Charger Installation
+With our EV charger installation, you’ll be able to power your electric vehicle conveniently. You can trust us to provide a quality service that meets all your requirements. Here is an example sentence: "The best EV charging solutions accommodate your daily needs."
 
-Whether you're buying an older property or your electrics are showing their age, our team carry out full and partial rewires with minimal disruption to your home. All work is fully tested and certified on completion.
+## Garden Lighting
+By installing effective garden lighting, you can enhance your outdoor space. In particular, well-planned lighting can improve both security and ambience.
 
----
-
-### EV Charger Installation
-
-Switch to smarter charging at home. We install OZEV-approved electric vehicle (EV) charge points for all major vehicle brands, including fast 7 kW home chargers. Grants may be available — ask us for details.
-
----
-
-### Electrical Installation Condition Report (EICR)
-
-Landlords, homeowners and businesses all need regular EICR testing to confirm electrical installations are safe. We carry out thorough inspections and provide a full written report, ideal for lettings compliance.
-
----
-
-### Additional Sockets & Lighting
-
-Need more sockets in the kitchen, office or living room? Planning new lighting for a renovation? We add circuits, install sockets and fit lighting solutions — LED downlights, outdoor security lighting and everything in between.
-
----
-
-### Fault Finding & Emergency Repairs
-
-Tripping breakers, dead sockets or flickering lights can indicate a serious fault. Our electricians use professional testing equipment to pinpoint and resolve electrical faults quickly, keeping you safe and your home running.
-
----
-
-### Outdoor & Garden Electrics
-
-From garden power points and outbuilding wiring to security lighting and CCTV power supplies, we extend your electrical installation safely outdoors.
-
----
-
-### Commercial & Business Electrical Work
-
-We work with small businesses, landlords and letting agents across the region. Services include three-phase supply, commercial lighting, periodic inspection testing and tenant changeover certificates.
-
----
-
-## Why Choose Nfinnerty Electrical?
-
-- ✅ NICEIC Approved Contractor
-- ✅ Fully insured and Part P compliant
-- ✅ All work comes with a completion certificate
-- ✅ Friendly, reliable and punctual service
-- ✅ Free no-obligation quotes
-- ✅ Serving York and the surrounding North Yorkshire area
-
----
-
-## Get a Free Quote
-
-Ready to get started? [Contact us today](/contact/) for a free, no-obligation quote. We cover York, Harrogate, Selby, Wetherby, Knaresborough and all surrounding areas.
+![Electrical Services](path/to/image.jpg){: alt="nfinnerty electricians services"}
