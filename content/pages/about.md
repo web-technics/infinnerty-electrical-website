@@ -1,6 +1,6 @@
 ---
 # Nfinnerty Electrical — /about page content
-# Last updated: 2026-04-04
+# Last updated: 2026-04-07
 #
 # SEO (Yoast SEO fields):
 seo_title: "About Us | Nfinnerty Electrical — Trusted Local Electricians"
