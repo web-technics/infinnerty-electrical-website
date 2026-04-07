@@ -52,6 +52,8 @@
 | — | **Accessibility: descriptive alt text added** to all images sitewide — image inventory in `data/images.json`; `featured_image_alt` field added to all page/area content templates | 4 Apr 2026 |
 | — | **SEO: `/commercial-electrician-in-york`** — title updated to *Electrician Services \| Nfinnerty Electrical*, meta description updated; "in york" copy adjustments applied | 4 Apr 2026 |
 | — | **Content writers onboarded** (started 4 Apr 2026) — image alt text guidelines added to README and `data/images.json` | 4 Apr 2026 |
+| — | **Content: Services page updated** — transition-word copy improvements on `/services` + clearly marked `Last updated: 2026-04-07` (`content/pages/services.md`) | 7 Apr 2026 |
+| — | **Documentation consistency: “Last updated” applied across key customer pages** — homepage (`index.html`), York area page (`content/areas/york.md`), About page (`content/pages/about.md`) | 7 Apr 2026 |
 
 ---
 
