@@ -69,8 +69,6 @@
 | [#16](https://github.com/web-technics/infinnerty-electrical-website/issues/16) | SEO: Research and optimise area service landing pages | 🟡 Ongoing |
 | [#17](https://github.com/web-technics/infinnerty-electrical-website/issues/17) | Review ROI on paid services (Google Ads, Checkatrade) — JotForm removed | 🟡 Ongoing |
 
-> 💡 **Next action:** Delete `hello.php` (zero-risk cleanup) — do manually via WP Admin > Plugins.
-
 > 📋 **Subscription form:** Paste the new provider embed into `components/PremiumSubscriptionForm.html` (see TODO comment inside the file), then update the Divi Code Module / Custom HTML block on any page that previously showed the Jotform form.
 
 ---
