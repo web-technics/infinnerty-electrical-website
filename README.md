@@ -162,15 +162,6 @@ Nfinnerty Electrical electrician serving {Area Name} and the surrounding area
 
 ---
 
-## 🔐 Credentials & Access
-
-All admin logins, hosting credentials and sensitive project documents are stored securely in Google Drive (access restricted):  
-🔗 [Project Google Drive Folder](https://drive.google.com/drive/u/0/folders/1f3_U9Y-28DZicj2vcAgzB1LRcFEzbm0M)
-
-> ⚠️ Never commit passwords or credentials to this repository.
-
----
-
 ## 📬 Contact
 
 **Web Technics**  
